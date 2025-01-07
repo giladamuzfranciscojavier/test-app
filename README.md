@@ -1,3 +1,5 @@
+#### NOTA: El propósito de este repositorio es archivar el proyecto de fin de ciclo realizado de septiembre a diciembre de 2024 tal y como se entregó. En caso de actualizar cualquiera de las versiones estas se almacenarán en un repositorio específico para la misma. A continuación se muestra el documento de presentación original, cambiando solo los enlaces necesarios.
+
 # Proyecto fin de ciclo
 
 ## Descripción
@@ -14,12 +16,12 @@ Con esto se pretende que el usuario pueda crear un test completamente a su medid
 ## Instalación / Puesta en marcha
 
 ### Aplicación
-La versión de Android solamente requiere instalar [la apk](app/TestApp.apk).
+La versión de Android solamente requiere instalar [la apk](https://github.com/giladamuzfranciscojavier/test-app/releases/download/v1.0.0/TestAppAndroid.apk).
 
-[La versión de Java](app/TestApp.jar) es completamente portable, aunque es preciso tener en cuenta que el fichero de ajustes se guarda en el directorio de trabajo (en la inmensa mayoría de casos coincide con el directorio del jar). La versión actual está compilada para la última versión de java hasta la fecha (23.0.1).
+[La versión de Java](https://github.com/giladamuzfranciscojavier/test-app/releases/download/v1.0.0/TestAppPC.jar) es completamente portable, aunque es preciso tener en cuenta que el fichero de ajustes se guarda en el directorio de trabajo (en la inmensa mayoría de casos coincide con el directorio del jar). La versión actual está compilada para la última versión de java hasta la fecha (23.0.1).
 
 ### Base de datos
-Suponiendo que exista una instalación correctamente configurada de MySQL Server en un sistema Windows, esté incluída en la variable PATH y se disponga de permisos de root, para la base de datos solo es necesario ejecutar [el script proporcionado](app/Base%20de%20Datos/) en el mismo directorio que el script SQL e introducir la información solicitada durante el proceso.
+Suponiendo que exista una instalación correctamente configurada de MySQL Server en un sistema Windows, esté incluída en la variable PATH y se disponga de permisos de root, para la base de datos solo es necesario ejecutar [el script proporcionado](src/Base%20de%20Datos/) en el mismo directorio que el script SQL e introducir la información solicitada durante el proceso.
 
 
 
@@ -53,7 +55,7 @@ Contacto: franciscojaviergilada.x2@gmail.com
     * 1.1. [Idea](doc/1_idea.md)
 2. [Diseño](doc/2_diseño.md)
 3. Implementación
-    * 3.1 [Aplicaciones](app)
+    * 3.1 [Aplicaciones](https://github.com/giladamuzfranciscojavier/test-app/releases/tag/v1.0.0)
     * 3.2 [Manual](doc/Manual.pdf)
 
 
