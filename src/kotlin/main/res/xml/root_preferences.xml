@@ -1,0 +1,73 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+    <PreferenceCategory app:title="Tipografías">
+
+        <ListPreference
+            app:key="font"
+            app:title="Tipografía de la Aplicación"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>-->
+
+    <PreferenceCategory app:title="Colores">
+        <ListPreference
+            android:key="colorCorrect"
+            android:title="Respuestas Correctas"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            android:key="colorPartial"
+            android:title="Respuestas Parcialmente Correctas"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            android:key="colorIncorrect"
+            android:title="Respuestas Incorrectas"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Conexión">
+
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="url"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Base de Datos"
+            app:defaultValue="10.0.2.2:3306/testapp"
+            app:persistent="true"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="user"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Usuario"
+            app:defaultValue="Anon"
+            app:persistent="true"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="password"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Contraseña"
+            app:persistent="false"
+            app:summary="Introduce la contraseña" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="connect"
+            android:title="Conectar con la Base de Datos"
+            app:persistent="false" />
+    </PreferenceCategory>
+    <CheckBoxPreference
+        android:key="restore"
+        android:layout="@layout/restore_button"
+        android:title="Restablecer Configuración"
+        app:enabled="true"
+        app:persistent="false"
+        app:selectable="true" />
+
+</PreferenceScreen>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainmenu">
+
+    <fragment
+        android:id="@+id/mainmenu"
+        android:name="com.example.testapp.MainMenu"
+        android:label="Main Menu"
+        >
+        <action
+            android:id="@+id/action_mainmenu_to_creator"
+            app:destination="@id/creator" />
+        <action
+            android:id="@+id/action_mainmenu_to_solver"
+            app:destination="@id/solver" />
+        <action
+            android:id="@+id/action_mainmenu_to_settings"
+            app:destination="@id/settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/creator"
+        android:name="com.example.testapp.CreatorFragment"
+        android:label="Creator" />
+    <fragment
+        android:id="@+id/solver"
+        android:name="com.example.testapp.SolverFragment"
+        android:label="fragment_solver"
+        tools:layout="@layout/fragment_solver" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.testapp.SettingsFragment"
+        android:label="Settings"/>
+</navigation>

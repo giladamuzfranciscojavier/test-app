@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    tools:parentTag="LinearLayout">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_weight="3"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:gravity="start|top"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <RadioButton
+        android:id="@+id/radiobutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</merge>

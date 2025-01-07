@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Test App</string>
+
+    <array name="spinner_dummy"></array>
+
+
+    <string-array name="colorNames">
+        <item>Rojo"</item>
+        <item>Amarillo"</item>
+        <item>Naranja"</item>
+        <item>Rosa"</item>
+        <item>Azul Claro"</item>
+        <item>Azul"</item>
+        <item>Morado"</item>
+        <item>Verde"</item>
+        <item>Verde Oscuro"</item>
+    </string-array>
+
+    <string-array name="colorValues">
+        <item>#FF1400</item>
+        <item>#FFCC00</item>
+        <item>#FF6600</item>
+        <item>#F8548B</item>
+        <item>#00BCD4</item>
+        <item>#3F51B5</item>
+        <item>#673AB7</item>
+        <item>#00FF0A</item>
+        <item>#007A09</item>
+    </string-array>
+
+</resources>
